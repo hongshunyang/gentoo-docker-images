@@ -1,5 +1,5 @@
 FROM gentoo/stage3-amd64
 
-MAINTAINER yanghongshun@gmail.com
+MAINTAINER Hongshun Yang <yanghongshun@gmail.com>
 
 
