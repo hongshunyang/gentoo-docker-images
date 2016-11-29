@@ -2,6 +2,7 @@ FROM hongshunyang/gentoo-stage3-amd64
 MAINTAINER Hongshun Yang <yanghongshun@gmail.com>
 ##TODO:GENTOO-SOURCE /USR/SRC/LINUX
 ##TODO:~amd64
+
 #emerge --info
 
 #CONFIGURE:/etc/make.conf
@@ -76,7 +77,7 @@ dev-vcs/git
 
 ##app-portage/gentoolkit \
 ##RUN eclean-dist && eclean-pkg
-##CONFIGURE:layman
+##CONFIGURE:layman(TODO:need python2)
 ##RUN emerge app-portage/layman
 ##RUN echo "source /var/lib/layman/make.conf" >> /etc/portage/make.conf
 
